@@ -14,6 +14,28 @@ Args:
 Returns:
     str: return answer. 
 */
+String func(
+  int a,
+) {
+  String week = "";
+  if (a == 1) {
+    week = 'Monday';
+  } else if (a == 2) {
+    week = 'Tuesday';
+  } else if (a == 3) {
+    week = 'Wednesday';
+  } else if (a == 4) {
+    week = 'Thursdey';
+  } else if (a == 5) {
+    week = 'Friday';
+  } else if (a == 6) {
+    week = 'Saturday';
+  } else if (a == 7) {
+    week = 'Sunday';
+  }
+  return week;
+}
 
 void main() {
+  print(func(3));
 }
