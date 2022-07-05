@@ -7,6 +7,19 @@ Args:
 Returns:
     int: return answer. 
 */
+int func(a, b) {
+  if (a == b) {
+    return 0;
+  }
+  if (a != b && a > b) {
+    if (a != b && b > a) {
+      return b;
+    } else
+      return a;
+  }
+  return 2;
+}
 
 void main() {
+  print(func(20, 20));
 }
